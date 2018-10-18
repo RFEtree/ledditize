@@ -1,0 +1,11 @@
+{
+"name": "ledditize",
+"version": "1.0",
+"description": "get that leddit feeling.. on fourcans!",
+"permissions": ["tabs","storage","contentSettings","webNavigation","activeTab","*://*/*"],
+"background": {
+  "scripts": ["background.js"],
+  "persistent": false
+},
+"manifest_version": 2
+}
